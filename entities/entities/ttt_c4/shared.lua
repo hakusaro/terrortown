@@ -105,8 +105,8 @@ end
 function ENT.SafeWiresForTime(t)
    local m = t / 60
 
-   if m > 4 then     return 1
-   elseif m > 3 then return 2
+   
+   if m > 3 then return 2
    elseif m > 2 then return 3
    elseif m > 1 then return 4
    else              return 5
