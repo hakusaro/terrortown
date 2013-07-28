@@ -108,7 +108,7 @@ function ENT.SafeWiresForTime(t)
    if m > 4 then     return 1
    elseif m > 3 then return 2
    elseif m > 2 then return 3
-   elseif m > 1 then return 4
+   elseif m > 1 then return 3
    else              return 5
    end
 end
